@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - name: compile
     - run: gcc clave_acceso.c -o clave_acceso
-    - uses: actions/checkout@v2
     - name: execution
     - run: ./main
 
