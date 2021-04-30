@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: compile
-      run: gcc clave_acceso.c -o clave_acceso
+      run: gcc clave_acceso.c -o main
     - name: execution
       run: ./main
 
