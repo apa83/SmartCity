@@ -16,5 +16,5 @@ jobs:
     - run: gcc clave_acceso.c -o clave_acceso
     - uses: actions/checkout@v2
     - name: execution
-      run: ./main
+    - run: ./main
 
