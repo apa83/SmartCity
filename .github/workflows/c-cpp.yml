@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: compilation
-      run: gcc helloworld.c -o helloworld
+      run: gcc MisraGries.c -o MisraGries
     - name: configure
       run: ./configure
     - name: make
